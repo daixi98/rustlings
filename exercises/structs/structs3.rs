@@ -17,11 +17,11 @@ impl Package {
         if weight_in_grams <= 0 {
             panic!("crash!")
         } else {
-            return Package {
+            Package {
                 sender_country,
                 recipient_country,
                 weight_in_grams,
-            };
+            }
         }
     }
 
